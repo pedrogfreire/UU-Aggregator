@@ -144,5 +144,11 @@ int send_message_bluetooth (char* message, int msg_length){
 		return 0;
 	}
 	
+	// read data from the client
+    bytes_read = read(sock, buffer, sizeof(buffer));
+    if( bytes_read > 0 ) {
+        printf("received [%s]\n", buffer);
+    }
+	
 	return 0;
 }
