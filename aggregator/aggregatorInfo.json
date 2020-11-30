@@ -1,0 +1,11 @@
+{
+	"aggregatorID": "2020UUH0001",
+	"manufacturer": "Uppsala University",
+	"patientID": 123456678,
+	"productionDate": "2020-10-01",
+	"sensors": [
+	{"sensorTypeID": 123, "sensorUniqID": "2020UU123-0001"} 
+	{"sensorTypeID": 124, "sensorUniqID": "2020UU124-0001"}
+	{"sensorTypeID": 125, "sensorUniqID": "2020UU125-0001"}
+	]
+}
